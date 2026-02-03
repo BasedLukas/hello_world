@@ -36,6 +36,10 @@ Hello, World!
 
 ### How to Test
 
+**Option 1: Use the Test Button (Recommended)**
+Click the "Run Tests" button in the VibeArena UI. This runs the test suite and shows you the results directly in the browser.
+
+**Option 2: Run Tests Manually**
 Run the following command in your terminal:
 ```bash
 pytest tests/
