@@ -1,0 +1,14 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install pytest && code --install-extension .devcontainer/vibearena-0.5.0.vsix --force",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "vibearena.apiBaseUrl": "https://backend-production-be63.up.railway.app"
+      },
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}

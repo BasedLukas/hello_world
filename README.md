@@ -1,21 +1,12 @@
-# Hello World Tutorial
+# Hello World
 
-Welcome to VibeArena! This tutorial teaches you how to use the coding challenge system.
+Welcome to your VibeArena coding assessment!
 
-## Your Coding Environment
+## Getting Started
 
-Click "Start Challenge" and VibeArena spins up an isolated sandbox with:
-- Full VS Code editor in your browser
-- Terminal with all tools pre-installed
-- AI coding agents ready to use
-
-No installation required—everything runs in the browser.
-
-## Important Notes
-
-- The `tests/` directory contains test files that verify your solution. **Do not modify these files.**
-- Your solution will also be evaluated against hidden tests, so make sure your code handles edge cases correctly.
-- Run `pytest` in the terminal to test your solution at any time.
+1. Open the **VibeArena** panel in the sidebar (click the V icon in the activity bar)
+2. Paste your **invite code** and click **Authenticate**
+3. Your challenge details will appear automatically
 
 ## Your Task
 
@@ -28,15 +19,19 @@ When you run `python hello.py`, it should output:
 Hello, World!
 ```
 
-## How to Test
+## Testing Locally
 
-**Option 1: Use the Test Button (Recommended)**
-Click the "Run Tests" button in the VibeArena UI. This runs the test suite and shows you the results directly in the browser.
-
-**Option 2: Run Tests Manually**
 Run the following command in your terminal:
 ```bash
 pytest tests/
 ```
 
-If all tests pass, your solution is correct!
+## Submitting
+
+1. When you're ready, click **Submit Solution** in the VibeArena panel. Your code will be graded automatically and you'll see your test results.
+2. Once you're satisfied with your results, click **Finish Assessment** to mark your assessment as complete.
+
+## Important Notes
+
+- The `tests/` directory contains test files that verify your solution. **Do not modify these files.**
+- You may use any AI tools available in your environment.
