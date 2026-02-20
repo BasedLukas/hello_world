@@ -1,6 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
-  "postCreateCommand": "pip install pytest && code --install-extension .devcontainer/vibearena-0.5.0.vsix --force",
+  "postCreateCommand": "pip install pytest",
+  "postAttachCommand": "code --install-extension .devcontainer/vibearena-0.5.0.vsix --force",
   "customizations": {
     "vscode": {
       "settings": {
