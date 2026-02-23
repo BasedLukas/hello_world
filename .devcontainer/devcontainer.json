@@ -5,11 +5,11 @@
     "ghcr.io/devcontainers/features/node:1": { "version": "20" }
   },
   "updateContentCommand": "bash .devcontainer/setup.sh",
-  "postAttachCommand": "code --install-extension .devcontainer/vibearena-0.5.0.vsix --force",
+  "postAttachCommand": "code --install-extension .devcontainer/vibearena-1.1.0.vsix --force",
   "customizations": {
     "vscode": {
       "settings": {
-        "vibearena.apiBaseUrl": "https://backend-production-be63.up.railway.app",
+        "vibearena.apiBaseUrl": "https://backend-production-2429b.up.railway.app",
         "terminal.integrated.defaultProfile.linux": "bash",
         "editor.fontSize": 14,
         "workbench.startupEditor": "readme"
