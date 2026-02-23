@@ -5,7 +5,7 @@
     "ghcr.io/devcontainers/features/node:1": { "version": "20" }
   },
   "updateContentCommand": "bash .devcontainer/setup.sh",
-  "postAttachCommand": "code --install-extension .devcontainer/vibearena-1.1.0.vsix --force",
+  "postAttachCommand": "code --install-extension .devcontainer/vibearena-1.2.0.vsix --force",
   "customizations": {
     "vscode": {
       "settings": {
